@@ -1,0 +1,405 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: San-Francisco;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:focus {
+	outline: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+.center {
+	margin: 0 auto;
+}
+
+.advertise-wrapper {
+	width: 100%;
+	background-color: #444444;
+}
+
+@font-face {
+	font-family: San-Francisco;
+	src: url(./fonts/SanFranciscoText-Regular-19.otf);
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: San-Francisco;
+	src: url(../fonts/SanFranciscoText-Light-15.otf);
+	font-weight: lighter;
+
+}
+
+.advertise {
+
+	box-sizing: border-box;
+	width: 976px;
+	line-height: 40px;
+	margin: 0 auto;
+	text-align: right;
+	font-size: 10px;
+	color: #a1a1a3;
+}
+.fixed {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+	backdrop-filter: blur(5px);
+}
+nav {
+	
+	width: 100%;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+nav ul {
+	display: flex;
+	justify-content: space-between;
+	-moz-justify-content: space-between;
+	-o-justify-content: space-between;
+	-webkit-justify-content: space-between;
+	width: 1000px;
+	line-height: 44px;
+	margin: 0 auto;
+}
+
+nav ul li a {
+	font-size: 15px;
+	font-family: San-Francisco;
+	color: #d6d6d6;
+	transition: all 0.3s;
+}
+
+nav ul li a:hover {
+	color: white;
+	text-decoration: none;
+}
+.iconfont {
+	font-size: 20px;
+}
+
+.notice-bar {
+	line-height: 44px;
+	text-align: center;
+	background-color: #f5f5f7;
+	font-size: 14px;
+}
+
+.notice-bar a {
+	color: #086acd;
+}
+
+.main-img {
+	width: 100%;
+	height: 600px;
+	background: url(../img/home_bg.jpg) no-repeat center center;
+	text-align: center;
+}
+
+.main-img img {
+	display: block;
+	width: 75px;
+	margin: 10px auto;
+}
+
+.main-img h2 {
+	margin: 20px 0;
+	font-size: 45px;
+	letter-spacing: 3px;
+	font-weight: bald;
+}
+
+.main-img a {
+	font-size: 18px;
+	color: #1472d0;
+	letter-spacing: 1px;
+}
+
+.img-lens {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	background: url(../img/home_lens.jpg) no-repeat center center;
+	color: white;
+}
+
+.lens-content {
+	position: absolute;
+	top: 50%;
+	margin-top: -150px;
+	margin-left: 250px;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+
+}
+
+.lens-content li:first-child {
+	margin-bottom: 30px;
+	font-size: 16px;
+}
+
+.lens-content li:nth-child(3) {
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.lens-content li:nth-child(4),
+.lens-content li:nth-child(5) {
+	margin: 5px 0 15px 30px;
+	float: left;
+}
+
+.iPhone-12-advertise img {
+	height: 624px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.iPhone-12-advertise {
+	position: relative;
+}
+
+.iPhone-box {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	margin-left: -150px;
+	display: block;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+}
+
+.iPhone-box h1 {
+	font-size: 65px;
+	font-weight: bold;
+}
+
+.iPhone-box h3 {
+	margin-bottom: 10px;
+	font-size: 25px;
+	font-weight: 400;
+}
+
+.iPhone-box p {
+	color: #8b8b90;
+}
+
+.iPhone-box p+p {
+	margin-bottom: 10px;
+}
+
+.iPhone-box a {
+	margin: 0 10px;
+	color: #0d6ece;
+	font-size: 20px;
+}
+
+.banncers img:nth-child() {
+	display: flex;
+	justify-content: space-around;
+}
+
+.banners ul li {
+	position: relative;
+	float: left;
+	width: 740px;
+	height: 580px;
+	background-color: black;
+	margin: 5px 5px;
+}
+
+.banners ul li img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.banners .img-ip {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	object-fit: none;
+}
+
+.banners .img-iwatch {
+	position: absolute;
+	bottom: 0;
+	height: 65%;
+	object-fit: none;
+}
+
+.iPhone-box-mini {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	margin-left: -150px;
+	display: block;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+	color: white;
+}
+
+.iPhone-box-mini h1 {
+	font-size: 45px;
+}
+
+.iPhone-box-mini h3 {
+	font-weight: 500;
+}
+
+.iPhone-box-mini p {
+	color: #7a7a7e;
+	margin: 5px 0;
+}
+
+.iPhone-box-mini a {
+	color: #268beb;
+	margin: 15px 10px;
+	font-size: 14px;
+}
+
+.watch {
+	position: relative;
+}
+
+.watch-box-mini {
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	margin-left: -85px;
+	width: 200px;
+	height: 200px;
+	color: white;
+	text-align: center;
+}
+
+.watch .watch-box-mini img {
+	width: 128px;
+	height: 50px;
+}
+
+.watch-box-mini p {
+	margin: 10px 0;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+.watch-box-mini a {
+	color: #268beb;
+	margin: 15px 10px;
+	font-size: 14px;
+}
+
+/* 还没写完 */
+
+.clearfix:after{
+    display:block;
+    clear:both;
+    content:"";
+    visibility:hidden; 
+    height:0;
+} 
+.clearfix{zoom:1}
+
+/* 页尾 */
+footer {
+	width: 100%;
+	height: 600px;
+	margin-top: 10px;
+	padding-top: 20px;
+	background-color: #f5f5f7;
+}
+.footer-content {
+	width: 1000px;
+	height: 180px;
+	margin: 0 auto;
+	color: #86868b;
+	font-size: 12px;
+}
+.footer-content ol {
+	margin-left: 1em;
+}
+.footer-content ol li{
+	margin-top: 10px;
+	list-style: decimal;
+}
+.line {
+	width: 1000px;
+	height: 1px;
+	margin-top: 25px;
+	background-color: #d2d2d7;
+}
+/*底部*/
+
+
+.footer-nav{
+	padding-bottom: 20px;
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	-moz-justify-content: space-between;
+	-o-justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+
+.footer-nav ul {
+	margin-top: 1rem;
+}
+
+.footer-nav ul li {
+	margin: 5px 0;
+}
+.footer-nav ul li h5 {
+	font-weight: 600;
+}
+
+.footer-nav ul li a {
+	font-size: 0.5rem;
+	color: #515154;
+}
+
+.footer-nav ul li h5 {
+	font-size: 12px;
+	color: #404042;
+}
+.moreover {
+	width: 1000px;
+	height: 50px;
+	font-size: 12px;
+	margin: 0 auto;
+	color: #888;
+	padding-bottom: 0.8rem;
+}
+
+.moreover a {
+	color: #0070c9;
+	font-size: 0.5rem;
+}
+
+.moreover .line {
+	margin: 5px;
+}
+
+.moreover .statement div {
+	margin: 5px 0;
+}
+.statement div span a,.statement a {
+	color: #515154;
+}
